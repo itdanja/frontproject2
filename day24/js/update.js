@@ -67,6 +67,6 @@ function 피드수정(){
 
     // 4.
     alert('피드 수정 완료')
-    location.href="/day24/index.html";
+    location.href="../index.html";
 }
 

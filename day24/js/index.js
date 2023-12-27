@@ -157,7 +157,7 @@ function 피드수정으로이동( fno ){
     if( 패스워드검사( fno ) ){ return; }
 
     localStorage.setItem( 'updatefno' , JSON.stringify(fno) );
-    location.href='/day24/update.html'
+    location.href='../update.html'
 }
 
 function 패스워드검사( fno ){

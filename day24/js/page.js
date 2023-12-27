@@ -1,4 +1,4 @@
 $(document).ready(function(){
-    $('#header').load("/day24/header.html");
-    $('#footer').load("/day24/footer.html");
+    $('#header').load("../header.html");
+    $('#footer').load("../footer.html");
 });

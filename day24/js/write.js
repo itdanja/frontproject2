@@ -46,6 +46,6 @@ function 피드등록(){
 
     // 4.
     alert('피드 등록 완료')
-    location.href="/day24/index.html";
+    location.href="../index.html";
 
 }
