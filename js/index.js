@@ -94,7 +94,7 @@ function 모든피드출력(){
                                 <button onclick="onreply( ${feed.fno })" type="button">답글</button>
                             </div>
                             
-                            <span style="font-size: 15px;">
+                            <span>
                                 <span onclick="upDown( ${feed.fno} , 1 ) "> 👍 ${ feed.fgood } </span>
                                 <span onclick="upDown( ${feed.fno} , -1 ) "> 👎 ${ feed.fbad } </span>
                             </span>
@@ -127,7 +127,7 @@ function 피드별댓글출력( fno ){
             html += `<div class="reply"> 
                         <span> ${ reply.rcontent } </span>
                         <div class="replyrignt">
-                            <span> ${ reply.rdate } </span> 
+                            <span class="date"> ${ reply.rdate } </span> 
                             <span> <button onclick="댓글삭제(${ reply.rno })"  type="button"> X </button> </span> 
                         </div>
                     </div>	`
